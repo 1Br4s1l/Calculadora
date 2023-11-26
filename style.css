@@ -1,52 +1,60 @@
 *{
-    margin: 0;
-    padding: 0;
-  }
-  body{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-color: #777777;
-    color: #f3f3f3;
-  }  
-  button{
-    border-radius: 5px;
-    border: 1px solid black;
-    padding: 20px 40px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 64px;
-    height: 64px;
-    font-weight: bold;
-    z-index: 0;
-    float: left;
-  }
-  .igual{
-    background-color: #76b9ed;
-    color: #2b4457;
-  }
-  .calc-button{
-    background-color: #323232;
-    color: #dddddd;
-  }
-  .calc-sign{
-    background-color: #3b3b3b;
-    color: #e5e5e5;
-  }
-  .screen{
-    font-size: 28px;
-    margin-bottom: 10px;
-    text-align: right;
-  }
-  .container{
-    display: grid;
-    width: 375px;
-    height: 475px;
-    border: 3px solid black;
-    border-radius: 20px;
-    justify-content:center;
-    align-items: center;
-    background-color: #202020;
-  }
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #777777;
+  color: #f3f3f3;
+}  
+canvas {
+  border: 3px solid black;
+  border-radius: 20px;
+  background: url('https://media.istockphoto.com/photos/notebook-paper-picture-id692814410?k=6&m=692814410&s=170667a&w=0&h=jgzwf7RgL_K7Fj5ysjuSUBKc62YB5mvf8AO4YKJaMas=');
+}
+button{
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 16px;
+  width: 64px;
+  height: 64px;
+  font-weight: bold;
+  z-index: 0;
+  float: left;
+}
+.igual{
+  background-color: #76b9ed;
+  color: #2b4457;
+}
+.calc-button{
+  background-color: #323232;
+  color: #dddddd;
+}
+.calc-sign{
+  background-color: #3b3b3b;
+  color: #e5e5e5;
+}
+.screen{
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: white;
+  color: #202020;
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+.container{
+  display: grid;
+  width: 375px;
+  height: 475px;
+  border: 3px solid black;
+  border-radius: 20px;
+  justify-content:center;
+  align-items: center;
+  background-color: #202020;
+}
